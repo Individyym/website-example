@@ -1,0 +1,991 @@
+@font-face {
+    font-family: 'Taurus';
+    src: url(../fonts/taurus-normal_allfont_ru.ttf);
+}
+
+button {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+@font-face {
+    font-family: 'Taurus Bold';
+    src: url(../fonts/taurus-bold_allfont_ru.ttf);
+}
+
+body {
+    background-color: #F0F0F3;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 1175px;
+    padding: 0;
+}
+
+/* top menu styles start */
+
+.top-menu {
+    margin-top: 13px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 790px;
+    align-items: center;
+    margin: 0 auto;
+    box-shadow: -4px -4px 10px #FFFFFF, 4px 4px 10px rgba(174, 174, 192, 0.4);
+    border-radius: 90px;
+    padding: 6px 0;
+}
+
+.menu-link {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+    color: #8EA604;
+}
+
+.menu-link:hover {
+    color: #EC9F05;
+}
+
+/* header styles start */
+
+.header-intro {
+    margin-top: 147px;
+}
+
+.header-wrapper {
+    display: flex;
+
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+.header-image {
+    border-radius: 262.5px;
+}
+
+.heading {
+    margin: 0 0 32px 0; 
+    padding: 0;
+    text-align: center;
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 39px;
+    text-align: center;
+    color: #EC9F05
+}
+
+.header-underheading p {
+    text-align: center;
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 27px;
+    text-align: center;
+    color: #335817;
+    margin: 0;
+    padding: 0;
+}
+
+/* main section styles start */
+
+.main-section {
+    margin-top: 257px;
+}
+
+.main-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.main-block-image {
+    border-radius: 120px;
+}
+
+.main-heading {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+    margin: 0;
+    padding: 0;
+    color: #EC9F05;
+    
+}
+
+.main-block-left {
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    justify-content: space-around;
+}
+
+.main-block-right {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    height: 240px;
+    justify-content: space-around;
+}
+
+.main-link-wrap {
+    width: 305px;
+    background: #335817;
+    border: 1px solid #000000;
+    border-radius: 90px;
+    text-align: center;
+    padding: 15px;
+}
+
+.main-link {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.main-link:hover {
+    color: #EC9F05;
+}
+
+/* projects section styles start */
+
+.projects-section {
+    margin-top: 86px;
+    margin-bottom: 86px;
+}
+
+.projects-heading {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 39px;
+    text-align: center;
+    color: #EC9F05;
+}
+
+.projects-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-name {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 27px;
+    text-align: center;
+    margin: 0;
+    color: #335817;
+}
+
+.project-name:hover {
+    color: #EC9F05;
+}
+
+.project-image-cover {
+    display: flex;
+    justify-content: center;
+    border-radius: 110.5px;
+    margin: 54px 0;
+}
+
+.project-image {
+    border-radius: 110.5px;
+}
+
+/* footer styles start */
+
+footer {
+    background: #EC9F05;
+    margin-top: 86px;
+}
+
+.footer-main {
+    padding: 42px 0;
+    margin-top: auto;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-list-point {
+    margin-bottom: 6px;
+}
+
+.footer-link {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 27px;
+    color: #F0F0F3;    
+}
+
+.footer-link:hover {
+    color: #335817;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 14px;
+    align-items: flex-end;
+}
+
+.footer-unilogo {
+    background: #F0F0F3;
+    padding: 7px 16px;
+}
+
+.facebook-link {
+    margin-left: 20px;
+}
+
+/* About Us page */
+
+.about-us {
+    margin-top: 57px;
+    margin-bottom: 30px;
+}
+
+.about-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-heading {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 39px;
+    color: #EC9F05;
+    margin-bottom: 37px;
+}
+
+.about-description {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 98.88%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #335817;
+    margin: 0;
+}
+
+.about-poster {
+    border-radius: 147.5px;
+    margin: 36px 0;
+}
+
+/* Contacts page styles start */
+
+.contacts {
+    margin-top: 80px;
+}
+
+.contacts-top {
+    text-align: center;
+}
+
+.contacts-heading {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 39px;
+    color: #EC9F05;
+    margin-bottom: 0;
+}
+
+.contacts-name {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+    text-align: center;
+    color: #335817;   
+    margin: 45px auto; 
+}
+
+.contacts-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-map {
+    border-radius: 137px;
+}
+
+.contacts-bot-right {
+    width: 650px;
+}
+
+.contacts-bot-right p {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 27px;
+    color: #335817;
+    margin-bottom: 0;
+    
+}
+
+.contacts-bot-right span {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 27px;
+    
+    color: #335817;
+}
+
+.contacts-time {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-workdays {
+    margin: 32px 0;
+}
+
+.contacts-phone {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.contacts-email {
+    display: flex;
+}
+
+/* Catalogue page styles start */
+
+#Slide1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+#Slide2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+#Slide3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+#Slide4 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+#Slide5 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.carousel {
+    margin-top: 34px;
+    margin-bottom: 60px;
+}
+
+.dropdown-section {
+    margin-bottom: 90px;
+}
+
+.dropdown-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+#dropdownMenuButton1 {
+    background: #F0F0F3;
+    box-shadow: 10px 10px 10px rgba(174, 188, 192, 0.4), -4px -4px 10px #FFFFFF;
+    border-radius: 61px;
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+    color: #8EA604;    
+    border: none;
+    padding: 6px 18px;
+}
+
+.dropdown-menu.show {
+    width: 100%;
+    background: #E5E5E5;
+    border: 3px solid #BD8515;
+    border-radius: 25px 25px 0px 0px / 25px 25px 0px 0px;
+}
+
+.dropdown-item {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+    color: #8EA604;    
+}
+
+.dropdown-item:hover {
+    color: #BD8515;
+    background: none;
+}
+
+.dropdown-item:focus {
+    background: none;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.catalogue-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.catalogue-block {
+    margin-bottom: 45px;
+}
+
+
+.pagination-wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 138px;
+}
+
+.page-link {
+    background-color: #F0F0F3;
+    border: none;
+    border-radius: none;
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+    color: #8EA604;
+}
+
+.page-link:hover {
+    color: #BD8515;
+}
+
+.form-block {
+    margin-bottom: 128px;
+}
+
+.search-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.catalogue-search-form {
+    width: 55%;
+}
+
+#SearchForm {
+    background: #F0F0F3;
+    box-shadow: inset -4px -4px 7px #FFFFFF, inset 0px 4px 4px rgba(174, 188, 192, 0.4);
+    border-radius: 46px;
+    width: 100%;
+    border: none;
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+    color: #BD8515;
+    padding: 5px 0 5px 50px;
+}
+
+#SearchForm::placeholder {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+    color: #BD8515;
+    margin-left: 50px;
+}
+
+/* Malina page styles start */
+
+.malina-header {
+    margin-top: 72px;
+}
+
+.malina-header-box {
+    display: flex;
+    align-items: center;
+}
+
+.malina-header-title {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 39px;
+    color: #EC9F05;
+    margin-bottom: 0;
+}
+
+.malina-header-text {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+    color: #335817;
+    margin: 20px 0 27px 0;
+}
+
+.malina-classification {
+    margin: 215px 0 410px 0;
+}
+
+.malina-classification-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.malina-class-image {
+    border-radius: 190px;
+    box-shadow: -4px -4px 20px #FFFFFF, 10px 10px 20px rgba(174, 174, 192, 0.6);
+}
+
+.malina-class-right {
+    text-align: center;
+}
+
+.malina-class-title {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 39px;  
+    color: #EC9F05;
+    margin-bottom: 0;
+}
+
+.malina-class-text {
+    margin-top: 16px;
+}
+
+.malina-class-point {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+    text-align: center;
+    color: #335817;
+    margin-bottom: 0;
+}
+
+.malina-classification-box {
+    align-items: center;
+}
+
+.building-heading {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 39px;
+    color: #EC9F05;
+    margin-bottom: 0;
+    margin-left: 294px;
+}
+
+.building-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.building-image {
+    border-radius: 50%;
+    opacity: 0.5;
+    box-shadow: -4px -4px 10px #FFFFFF, 10px 10px 10px rgba(174, 188, 192, 0.4);
+}
+
+.building-body-texts {
+    width: 710px;
+    padding-left: 39px;
+}
+
+.building-body-images {
+    width: 772px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 42px;
+} 
+
+.building-text {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+    color: #335817;
+    margin-bottom: 0;
+}
+
+.malina-links-list {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 82px;
+    left: -60px;
+}
+
+.building-body-left {
+    padding-top: 54px;
+}
+
+.building-body-right {
+    display: flex;
+    position: relative;
+}
+
+
+.plod {
+    display: block;
+}
+
+.list {
+    display: none;
+}
+.stebel {
+    display: none;
+}
+.korni {
+    display: none;
+}
+
+
+
+.malina-link {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 29px;
+    color: #FFD13C;
+    border-bottom: 3px solid #FFD13C;
+}
+
+.malina-link:hover {
+    color: #335817;
+    border-bottom: 3px solid #335817;
+}
+
+.link-active {
+    color: #335817;
+    border-bottom: 3px solid #335817;
+}
+
+
+.point-plod {
+    width: 78px;
+}
+
+.point-listia {
+    margin-top: 30px;
+    margin-left: 21px;
+    width: 108px;
+}
+
+.point-stebel {
+    margin-top: 47px;
+    margin-left: 46px;
+    width: 177px;
+}
+
+.point-korni {
+    margin-top: 70px;
+    margin-left: 109px;
+    width: 115px;
+    
+}
+
+
+.lifecycle-heading {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 39px;
+    color: #F5BB00;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+
+.cycle-1 {
+    display: none;
+}
+
+.cycle-2 {
+    display: none;
+}
+.cycle-3  {
+    display: none;
+}
+.cycle-4 {
+    display: none;
+}
+
+.cycle-5 {
+    display: none;
+}
+
+.cycle-active {
+    display: block;
+}
+
+.lifecycle-text {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 27px;
+    color: #335817;
+    margin-bottom: 0;
+}
+
+
+
+.lifecycle-point {
+    border-radius: 50%;
+    margin-right: 101px;
+    box-shadow: -4px -4px 10px #FFFFFF, 10px 10px 10px rgba(174, 188, 192, 0.4);
+    pointer-events: none;
+}
+
+.lifecycle-point:hover {
+    opacity: 1;
+    box-shadow: none;
+}
+
+.lifecycle-body {
+    display: flex;
+    margin-top: 28px;
+    position: relative;
+}
+
+.lifecycle-background {
+    position: absolute;
+    z-index: -3;
+    top: 73px;
+    left: 70px;
+}
+
+.lifecycle-images {
+    display: flex;
+}
+
+.lifecycle-middle {
+    align-self: center;
+}
+
+.lifecycle-right {
+    align-self: center;
+}
+
+.images-bottom {
+    margin-top: 150px;
+}
+
+.lifecycle-image-overlay {
+    position: relative;
+    cursor: pointer;
+}
+
+.lifecycle-image-overlay::after {
+    content: "";
+    width: 150px;
+    height: 150px;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background-color: rgba(240, 240, 243, 0.7);
+    transition: opacity 0.1s;
+}
+
+.lifecycle-image-overlay:hover::after {
+    opacity: 0;
+}
+
+.lifecycle-image-overlay.opacity-active:after {
+    opacity: 0;
+}
+
+.area-heading {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 39px;
+    color: #EC9F05;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.area-body {
+    position: relative;
+}
+
+.area-text {
+    position: absolute;
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 31px;
+    color: #335817;    
+    top: 127px;
+    left: 41px;
+    z-index: 3;
+}
+
+.area-textbubble {
+    position: absolute;
+    top: 109px;
+    left: 0;
+    
+}
+
+.area-image {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 97px;
+}
+
+.pests {
+    margin-bottom: 105px;
+}
+
+.pests-title {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 39px;
+    /* identical to box height */
+    margin-bottom: 0;
+    text-align: center;
+    color: #EC9F05;
+}
+
+.pests-blocks {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.pests-name {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 29px;
+    text-align: center;
+    color: #335817;
+}
+
+.pests-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+
+.pests-image {
+    border-radius: 127.5px;
+}
+
+.pests-text {
+    font-family: 'Taurus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 27px;
+    text-align: center;
+    color: #335817;
+}
